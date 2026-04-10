@@ -36,7 +36,8 @@ export default function Contact() {
                 });
             },
             {
-                threshold: 0.2,
+                threshold: 0,
+                rootMargin:"0px 0px -80px 0px"
             }
         );
 
