@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Style from './Skills.module.css'
-
 export default function Skills() {
 
     useEffect(() => {
