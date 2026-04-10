@@ -1,0 +1,34 @@
+.navSection nav {
+    background-color: var(--evenComp);
+    z-index: 999;
+}
+
+.modeBTN {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.modeBTN:hover {
+    border-color: #3b82f6 !important;
+}
+
+.navSection nav {
+    transition: box-shadow 0.3s ease, backdrop-filter 0.3s ease, background-color 0.3s ease;
+}
+
+.scrolled nav {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.navSection nav {
+    transition: box-shadow 0.3s ease;
+}
+
+.scrolled nav {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+[data-bs-theme="dark"] .scrolled nav {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}

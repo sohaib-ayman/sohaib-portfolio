@@ -1,0 +1,55 @@
+.servicesSection {
+    background-color: var(--evenComp);
+    scroll-margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.servicesTitle {
+    color: #3b82f6;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+
+    background-color: var(--cardBackground);
+    transition: 0.3s;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card i {
+    font-size: 28px;
+    color: #3b82f6;
+    margin-bottom: 15px;
+}
+
+.card h5 {
+    color: var(--myNameColor);
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
