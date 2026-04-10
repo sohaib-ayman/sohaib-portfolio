@@ -190,8 +190,8 @@ export default function Projects() {
                                 </div>
 
                                 <div className={Style.projectLinks}>
-                                    <a href="https://github.com/sohaib-ayman/product-management-system" target="_blank">Repo</a>
-                                    <a href="https://sohaib-ayman.github.io/product-management-system/" target="_blank">Demo</a>
+                                    <a href="https://github.com/sohaib-ayman/product-management-system" target="_blank" rel="noreferrer">Repo</a>
+                                    <a href="https://sohaib-ayman.github.io/product-management-system/" target="_blank" rel="noreferrer">Demo</a>
                                 </div>
                             </div>
 
@@ -218,8 +218,8 @@ export default function Projects() {
                                 </div>
 
                                 <div className={Style.projectLinks}>
-                                    <a href="https://github.com/sohaib-ayman/portfolio-landing-page" target="_blank">Repo</a>
-                                    <a href="https://sohaib-ayman.github.io/portfolio-landing-page/" target="_blank">Demo</a>
+                                    <a href="https://github.com/sohaib-ayman/portfolio-landing-page" target="_blank" rel="noreferrer">Repo</a>
+                                    <a href="https://sohaib-ayman.github.io/portfolio-landing-page/" target="_blank" rel="noreferrer">Demo</a>
                                 </div>
                             </div>
 
@@ -278,8 +278,8 @@ export default function Projects() {
                                 </div>
 
                                 <div className={Style.projectLinks}>
-                                    <a href="https://github.com/sohaib-ayman/crumb-bakery-landing-page" target="_blank">Repo</a>
-                                    <a href="https://sohaib-ayman.github.io/crumb-bakery-landing-page/" target="_blank">Demo</a>
+                                    <a href="https://github.com/sohaib-ayman/crumb-bakery-landing-page" target="_blank" rel="noreferrer">Repo</a>
+                                    <a href="https://sohaib-ayman.github.io/crumb-bakery-landing-page/" target="_blank" rel="noreferrer">Demo</a>
                                 </div>
                             </div>
 
