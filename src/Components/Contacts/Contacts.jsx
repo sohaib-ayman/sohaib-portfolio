@@ -119,7 +119,6 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    {/* RIGHT SIDE (FORM) */}
                     <div className="col-12 col-md-7">
                         <div className={Style.formContainer}>
 
