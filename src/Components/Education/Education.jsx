@@ -29,7 +29,7 @@ export default function Education() {
         <div className={Style.educationSection} id="education">
             <div className="container py-5">
 
-                <h2 className={Style.educationTitle}>Education</h2>
+                <h2 className={Style.educationTitle}>Education & Courses</h2>
 
                 <div className="row g-4 justify-content-center">
 
@@ -41,6 +41,7 @@ export default function Education() {
                             </span>
                             <p>Faculty of Computers & Informatics</p>
                             <p className={`mb-0 ${Style.Description}`}>Building a strong foundation in computer science, including programming, data structures, and software development principles, with a focus on applying knowledge through real-world projects.</p>
+                            <span className={Style.tag}>Education</span>
                         </div>
                     </div>
 
@@ -52,6 +53,7 @@ export default function Education() {
                             </span>
                             <p>Frontend Development Track</p>
                             <p className={`mb-0 ${Style.Description}`}>Studied core frontend technologies including HTML, CSS, JavaScript, and React, and applied them in building responsive, interactive applications, with a focus on clean UI structure and performance optimization.</p>
+                            <span className={Style.tag}>Course</span>
                         </div>
                     </div>
 
@@ -63,6 +65,7 @@ export default function Education() {
                             </span>
                             <p>Python Programming Basics</p>
                             <p className={`mb-0 ${Style.Description}`}>Built a solid foundation in Python programming, covering core concepts such as data structures and control flow, with practical application through exercises and small projects.</p>
+                            <span className={Style.tag}>Course</span>
                         </div>
                     </div>
 
@@ -74,6 +77,7 @@ export default function Education() {
                             </span>
                             <p>Level Two</p>
                             <p className={`mb-0 ${Style.Description}`}>Built a strong foundation in programming and web development fundamentals, with an emphasis on problem-solving, logical thinking, and applying knowledge through practical tasks.</p>
+                            <span className={Style.tag}>Course</span>
                         </div>
                     </div>
 

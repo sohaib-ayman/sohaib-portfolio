@@ -24,6 +24,7 @@
 
 .card {
     padding: 25px;
+    position: relative;
     border-radius: 16px;
 
     background-color: var(--cardBackground);
@@ -35,6 +36,15 @@
     position: relative;
     overflow: hidden;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tag {
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    font-size: 0.75rem;
+    color: #3b82f6;
+    opacity: 0.8;
 }
 
 .card:hover::after {
